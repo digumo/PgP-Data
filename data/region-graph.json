@@ -1,0 +1,8 @@
+{
+  "west-murrieta": [
+    "east-murrieta"
+  ],
+  "east-murrieta": [
+    "west-murrieta"
+  ]
+}
