@@ -1,0 +1,11 @@
+{
+  "name": "PgP-Data",
+  "version": "1.0.0",
+  "description": "Pokemon Go Gym Data",
+  "author": "DigumoX",
+  "repository": {
+    "type": "git",
+    "url": "git+https://www.github.com/digumo/PgP-Data"
+  },
+  "license": "GPLv3"
+}
