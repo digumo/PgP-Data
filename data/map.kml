@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>Professor Pine</name>
-    <description>Used to manage raids on our Discord server.</description>
-    <Style id="poly-E65100-1200-77-nodesc-normal">
+    <name>Big region</name>
+    <Style id="poly-0288D1-1200-77-nodesc-normal">
       <LineStyle>
-        <color>ff0051e6</color>
+        <color>ffd18802</color>
         <width>1.2</width>
       </LineStyle>
       <PolyStyle>
-        <color>4d0051e6</color>
+        <color>4dd18802</color>
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
@@ -17,13 +16,13 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <Style id="poly-E65100-1200-77-nodesc-highlight">
+    <Style id="poly-0288D1-1200-77-nodesc-highlight">
       <LineStyle>
-        <color>ff0051e6</color>
+        <color>ffd18802</color>
         <width>1.8</width>
       </LineStyle>
       <PolyStyle>
-        <color>4d0051e6</color>
+        <color>4dd18802</color>
         <fill>1</fill>
         <outline>1</outline>
       </PolyStyle>
@@ -31,131 +30,64 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
-    <StyleMap id="poly-E65100-1200-77-nodesc">
+    <StyleMap id="poly-0288D1-1200-77-nodesc">
       <Pair>
         <key>normal</key>
-        <styleUrl>#poly-E65100-1200-77-nodesc-normal</styleUrl>
+        <styleUrl>#poly-0288D1-1200-77-nodesc-normal</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#poly-E65100-1200-77-nodesc-highlight</styleUrl>
+        <styleUrl>#poly-0288D1-1200-77-nodesc-highlight</styleUrl>
       </Pair>
     </StyleMap>
-    <Style id="poly-FFD600-1200-77-nodesc-normal">
-      <LineStyle>
-        <color>ff00d6ff</color>
-        <width>1.2</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>4d00d6ff</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <Style id="poly-FFD600-1200-77-nodesc-highlight">
-      <LineStyle>
-        <color>ff00d6ff</color>
-        <width>1.8</width>
-      </LineStyle>
-      <PolyStyle>
-        <color>4d00d6ff</color>
-        <fill>1</fill>
-        <outline>1</outline>
-      </PolyStyle>
-      <BalloonStyle>
-        <text><![CDATA[<h3>$[name]</h3>]]></text>
-      </BalloonStyle>
-    </Style>
-    <StyleMap id="poly-FFD600-1200-77-nodesc">
-      <Pair>
-        <key>normal</key>
-        <styleUrl>#poly-FFD600-1200-77-nodesc-normal</styleUrl>
-      </Pair>
-      <Pair>
-        <key>highlight</key>
-        <styleUrl>#poly-FFD600-1200-77-nodesc-highlight</styleUrl>
-      </Pair>
-    </StyleMap>
-    <Folder>
-      <name>Regions</name>
-      <Placemark>
-        <name>west-murrieta</name>
-        <styleUrl>#poly-FFD600-1200-77-nodesc</styleUrl>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <tessellate>1</tessellate>
-              <coordinates>
-                -117.2336254,33.5994238,0
-                -117.2430668,33.5987089,0
-                -117.2523367,33.5922744,0
-                -117.2541391,33.5891284,0
-                -117.2559414,33.5862685,0
-                -117.2588597,33.5802622,0
-                -117.2655544,33.5711088,0
-                -117.2560267,33.5666035,0
-                -117.2494608,33.5637071,0
-                -117.2422085,33.5608102,0
-                -117.2234974,33.5416757,0
-                -117.2047434,33.5559465,0
-                -117.1966324,33.5620976,0
-                -117.19174,33.5641002,0
-                -117.1895511,33.5673537,0
-                -117.1863327,33.5686416,0
-                -117.1810105,33.572914,0
-                -117.1813545,33.5847312,0
-                -117.1792947,33.5921134,0
-                -117.174445,33.5987001,0
-                -117.1951733,33.597851,0
-                -117.2336254,33.5994238,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
-      </Placemark>
-      <Placemark>
-        <name>east-murrieta</name>
-        <styleUrl>#poly-E65100-1200-77-nodesc</styleUrl>
-        <Polygon>
-          <outerBoundaryIs>
-            <LinearRing>
-              <tessellate>1</tessellate>
-              <coordinates>
-                -117.1792947,33.5921134,0
-                -117.1813545,33.5847312,0
-                -117.1810105,33.572914,0
-                -117.1863327,33.5686416,0
-                -117.1895511,33.5673537,0
-                -117.19174,33.5641002,0
-                -117.1966324,33.5620976,0
-                -117.2234974,33.5416757,0
-                -117.2142749,33.5320753,0
-                -117.1900594,33.5151226,0
-                -117.1823778,33.5182717,0
-                -117.1747816,33.5244965,0
-                -117.1664563,33.5309712,0
-                -117.1647396,33.5343519,0
-                -117.1633661,33.5380189,0
-                -117.1586461,33.5418101,0
-                -117.1542686,33.5452797,0
-                -117.1516073,33.5430267,0
-                -117.1405353,33.5510733,0
-                -117.1382174,33.5598176,0
-                -117.1355569,33.5690623,0
-                -117.1321237,33.5823633,0
-                -117.118304,33.5972351,0
-                -117.1171456,33.5985946,0
-                -117.1530664,33.5985219,0
-                -117.174445,33.5987001,0
-                -117.1792947,33.5921134,0
-              </coordinates>
-            </LinearRing>
-          </outerBoundaryIs>
-        </Polygon>
-      </Placemark>
-    </Folder>
+    <Placemark>
+      <name>murrieta-temecula</name>
+      <styleUrl>#poly-0288D1-1200-77-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -117.1972064,33.6114217,0
+              -117.2232989,33.6097062,0
+              -117.252138,33.6094202,0
+              -117.261751,33.6094202,0
+              -117.2778872,33.5948366,0
+              -117.2693041,33.5825387,0
+              -117.2655544,33.5711088,0
+              -117.2538546,33.5533598,0
+              -117.2349719,33.5447759,0
+              -117.2167758,33.53104,0
+              -117.2096518,33.5262462,0
+              -117.1991805,33.5182321,0
+              -117.1889666,33.507283,0
+              -117.1783236,33.4952589,0
+              -117.1549777,33.4826604,0
+              -117.1439913,33.4694874,0
+              -117.1306017,33.4643321,0
+              -117.1110324,33.4626137,0
+              -117.0842532,33.4703465,0
+              -117.0664004,33.4826604,0
+              -117.0509509,33.4875282,0
+              -117.0451144,33.5015574,0
+              -117.0447711,33.5193054,0
+              -117.0488909,33.5353327,0
+              -117.0355013,33.5493541,0
+              -117.025545,33.5596541,0
+              -117.026575,33.5791064,0
+              -117.0282916,33.5936927,0
+              -117.0475176,33.6042734,0
+              -117.0753268,33.6094202,0
+              -117.100046,33.6131372,0
+              -117.1199587,33.613995,0
+              -117.1433047,33.6179977,0
+              -117.164934,33.6220002,0
+              -117.1800402,33.6197131,0
+              -117.1972064,33.6114217,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
   </Document>
 </kml>
