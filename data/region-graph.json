@@ -1,8 +1,5 @@
 {
-  "west-murrieta": [
-    "east-murrieta"
-  ],
-  "east-murrieta": [
-    "west-murrieta"
+  "murrieta-temecula": [
+    "murrieta-temecula"
   ]
 }
